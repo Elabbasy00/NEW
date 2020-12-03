@@ -9,12 +9,11 @@
 /coverage
 /env
 .eslintcache
-/gsap-bouns.tgz
+/gsap-bonus.tgz
 /db.sqlite3
-/db.sqlite3
-
+db.sqlite3
  
-yarn.lock
+/yarn.lock
 # production
 /build
 media
