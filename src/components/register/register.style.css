@@ -1,0 +1,24 @@
+.register {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  display: block;
+  opacity: 0;
+  transform: translate(-50%, -65%) scale(0.1);
+  padding: 0 2px;
+}
+.wrapper-inputs {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .register {
+    width: 100%;
+    margin: 0 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper-inputs {
+    flex-direction: column;
+  }
+}

@@ -7,10 +7,13 @@
 
 # testing
 /coverage
-
+/env
+.eslintcache
+gsap-bouns.tgz
+yarn.lock
 # production
 /build
-
+media
 # misc
 .DS_Store
 .env.local

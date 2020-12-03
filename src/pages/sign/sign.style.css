@@ -1,0 +1,59 @@
+.sign-page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: row;
+  position: relative;
+}
+.login-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(127, 135, 135, 1) 100%
+  );
+}
+.register-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(54, 191, 114, 1) 100%
+  );
+}
+
+.choose {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -10%);
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.choose span {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 467px) {
+  .choose button {
+    width: 50%;
+    margin: 0 10px !important;
+  }
+  .choose {
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -10%);
+    justify-content: space-between;
+    margin: 10px;
+  }
+}
